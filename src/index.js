@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import logo from './logo.png';
+import logo from './logo-text.png';
 
 class App extends React.Component {
 
