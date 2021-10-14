@@ -8,7 +8,6 @@ body, html, #root {
 .bgimg {
     /* Background image */
     background-image: url('./bg01.jpg');
-    /*background-image: url('./forestbridge.jpeg');*/
     /* Full-screen */
     height: 100%;
     /* Center the background image */
@@ -28,7 +27,7 @@ body, html, #root {
 /* Position text in the top-left corner */
 .topleft {
     position: absolute;
-    top: 0;
+    top: 16px;
     left: 16px;
 }
   
@@ -38,6 +37,11 @@ body, html, #root {
     bottom: 0;
     left: 16px;
 }
+
+/*.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}*/
   
 /* Position text in the middle */
 .middle {

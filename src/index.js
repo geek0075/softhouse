@@ -1,48 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import logo from './logo.png';
 
-class Square extends React.Component {
-    render() {
-        return (
-            <button className="square">
-                {/* TODO */}
-            </button>
-        );
-    }
-}
-  
-class Board extends React.Component {
-    renderSquare(i) {
-      return <Square />;
-    }
-  
-    render() {
-        const status = 'Next player: X';
-  
-        return (
-            <div>
-            <div className="status">{status}</div>
-            <div className="board-row">
-                {this.renderSquare(0)}
-                {this.renderSquare(1)}
-                {this.renderSquare(2)}
-            </div>
-            <div className="board-row">
-                {this.renderSquare(3)}
-                {this.renderSquare(4)}
-                {this.renderSquare(5)}
-            </div>
-            <div className="board-row">
-                {this.renderSquare(6)}
-                {this.renderSquare(7)}
-                {this.renderSquare(8)}
-            </div>
-            </div>
-        );
-    }
-}
-  
 class App extends React.Component {
 
     constructor(props) {
@@ -92,7 +52,7 @@ class App extends React.Component {
         return (
             <div className="bgimg">
                 <div className="topleft">
-                    <p>Logo</p>
+                    <img src={logo} className="App-logo" alt="logo" />
                 </div>
                 <div className="middle">
                     <h1>COMING SOON</h1>
@@ -102,7 +62,7 @@ class App extends React.Component {
                     </p>
                 </div>
                 <div className="bottomleft">
-                    <p>Some text</p>
+                    <p>Softhouse LLC</p>
                 </div>
             </div>
         );
