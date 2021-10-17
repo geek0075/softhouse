@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import logo from './logo-text.png';
+import AlbumHtml from './AlbumHtml';
+import Album from './Album';
+
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
 
@@ -72,5 +77,5 @@ class App extends React.Component {
 // ========================================
   
 ReactDOM.render(
-    <App />,
+    <AlbumHtml />,
     document.getElementById('root'));
