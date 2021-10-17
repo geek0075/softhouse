@@ -77,5 +77,5 @@ class App extends React.Component {
 // ========================================
   
 ReactDOM.render(
-    <AlbumHtml />,
+    <App />,
     document.getElementById('root'));
