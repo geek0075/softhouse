@@ -4,6 +4,12 @@ import './index.css';
 import logo from './logo-text.png';
 import AlbumHtml from './AlbumHtml';
 import Album from './Album';
+import Navbar01 from './Navbar01';
+import Navbar02 from './Navbar02';
+import Navbar03 from './Navbar03';
+import Navbar04 from './Navbar04';
+import Navbar05 from './Navbar05';
+import Navbar06 from './Navbar06';
 
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
