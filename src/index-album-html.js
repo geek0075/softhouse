@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './orig/index.css';
-import App from './orig/App';
+import './album-html/index.css';
+import AlbumHtml from './album-html/AlbumHtml';
   
 ReactDOM.render(
-    <App />,
+    <AlbumHtml />,
     document.getElementById('root')
 );

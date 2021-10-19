@@ -40,5 +40,5 @@ function Navbar05() {
         </Navbar>
     );
 }
-  
+
 export default Navbar05;

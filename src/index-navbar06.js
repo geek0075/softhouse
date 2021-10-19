@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './orig/index.css';
-import App from './orig/App';
+import './navbar06/index.css';
+import Navbar06 from './navbar06/Navbar06';
   
 ReactDOM.render(
-    <App />,
+    <Navbar06 />,
     document.getElementById('root')
 );

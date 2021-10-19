@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './orig/index.css';
-import App from './orig/App';
+import './zigzag02/index.css';
+import ZigZag from './zigzag02/ZigZag';
   
 ReactDOM.render(
-    <App />,
+    <ZigZag />,
     document.getElementById('root')
 );

@@ -1,0 +1,55 @@
+.w3s-container {
+    padding: 64px;
+}
+
+.w3s-row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.w3s-column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+}
+
+.w3s-column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+}
+
+.w3s-large-font {
+    font-size: 48px;
+}
+
+.w3s-xlarge-font {
+    font-size: 64px
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .w3s-column-66,
+    .w3s-column-33 {
+        width: 100%;
+        text-align: center;
+    }
+    img {
+        margin: auto;
+    }
+}

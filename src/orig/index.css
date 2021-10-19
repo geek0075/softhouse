@@ -7,7 +7,7 @@ body, html, #root {
 /* https://surajsharma.net/blog/background-image-in-react */
 .bgimg {
     /* Background image */
-    background-image: url('./bg01.jpg');
+    background-image: url('./img/bg01.jpg');
     /* Full-screen */
     height: 100%;
     /* Center the background image */

@@ -1,18 +1,16 @@
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './Album.css';
+import './Album.css';
 
 // https://react-bootstrap.github.io/utilities/transitions/
 // import Collapse from 'react-bootstrap/Collapse'
-
 // https://react-bootstrap.github.io/layout/grid
 // https://react-bootstrap.github.io/layout/grid/#container-props
-import Container from 'react-bootstrap/Container';
 // https://react-bootstrap.github.io/layout/grid/#row-props
-import Row from 'react-bootstrap/Row';
 // https://react-bootstrap.github.io/layout/grid/#col-props
-import Col from 'react-bootstrap/Col';
 // https://react-bootstrap.github.io/components/navbar/#navbar-props
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Navbar from 'react-bootstrap/Navbar';
 
 function Album() {

@@ -1,8 +1,8 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
-import sign from './logo-30x30.png';
-import logo from './logo-text-h30-white.png';
+import sign from './img/logo-30x30.png';
+import logo from './img/logo-text-h30-white.png';
 
 import './Navbar02.css';
 
