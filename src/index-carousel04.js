@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom';
-import './home/index.css';
+import './carousel04/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from './home/App';
+import Carousel04 from './carousel04/Carousel04';
 
 ReactDOM.render(
-    <App />,
+    <Carousel04 />,
     document.getElementById('root')
 );

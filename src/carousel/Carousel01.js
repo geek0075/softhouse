@@ -15,7 +15,7 @@ function Carousel01() {
     return (
         <>
             <header>
-                <Navbar expand="md" bg="dark" variant="dark" fixed="top">
+                <Navbar expand="md" bg="dark" variant="dark" fixed="top" style={{ backgroundColor : 'transparent' }}>
                     <Container fluid>
                         <Navbar.Brand href="#">
                             <img
