@@ -1,5 +1,6 @@
 .bg-transparent {
     background-color: transparent !important;
+    transition: 0.4s;
 }
 
 .logo-medium {

@@ -55,7 +55,7 @@ class App extends React.Component {
                 <TopNav />
                 <div className="bg">
                     <div className="middle">
-                        <h1>SOFTWARE DEVELOPMENT AND DATA SCIENCES</h1>
+                        <h1>SOFTWARE DEVELOPMENT, DATA SCIENCES, AND MACHINE LEARNING</h1>
                         <h3>coming soon in</h3>
                         <p style={{ fontSize:30 }}>
                             {this.state.days}d {this.state.hours}h {this.state.minutes}m {this.state.seconds}s
