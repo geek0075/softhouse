@@ -1,4 +1,6 @@
 .bg {
+    background-image: url("./img/bg.png");
+    background-repeat: no-repeat;
     background-color: #47a5de;
     height: 100%; 
     color: white;
@@ -11,6 +13,7 @@
     top: 50%;
     left: 50%;
     width: 80%;
+    /* padding: 20%; */
     transform: translate(-50%, -50%);
     text-align: center;
 }
