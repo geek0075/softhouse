@@ -63,6 +63,12 @@ class TopNav extends React.Component {
                             <Nav.Item as="li">
                                 <Nav.Link href="#">Services</Nav.Link>
                             </Nav.Item>
+                            <Nav.Item as="li">
+                                <Nav.Link href="#">Team</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item as="li">
+                                <Nav.Link href="#">Certifications</Nav.Link>
+                            </Nav.Item>
                         </Nav>
                         <Form className="d-flex">
                             <Button variant="outline-light" type="submit" style={{ marginRight : '4px' }}>About Us</Button>
