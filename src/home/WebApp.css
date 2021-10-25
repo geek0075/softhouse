@@ -2,6 +2,18 @@
     padding: 64px;
 }
 
+.title {
+    /* deep blue */
+    color: #255298;
+    color: #47a5de;
+    /* logo red */
+    /* color: #f0584a; */
+    /* logo yellow */
+    /* color: #ffc845; */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
 .my-column {
     float: left;
     width: 33.33%;
@@ -14,7 +26,7 @@
     clear: both;
 }
   
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .my-column {
         width: 100%;
     }

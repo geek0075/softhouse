@@ -5,7 +5,7 @@ function WebApp() {
         <>
             <div className="my-container">
                 <div style={{ textAlign : "center" }}>
-                    <h2>Web Application Development</h2>
+                    <h1 className="title">Web Application Development</h1>
                 </div>
                 <div className="my-row">
                     <div className="my-column">

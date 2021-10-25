@@ -1,0 +1,35 @@
+.my-container3 {
+    padding: 64px;
+    background-color: #f1f1f1;
+}
+
+.my-column3 {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.my-row3 {
+    margin: 0 -5px;
+}
+
+.my-row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .my-column3 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+  
+.my-card3 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
