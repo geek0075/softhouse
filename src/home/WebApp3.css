@@ -32,4 +32,24 @@
     padding: 20px;
     margin-top: 20px;
 }
-  
+
+.title {
+    color: #47a5de;
+    /* logo red */
+    /* color: #f0584a; */
+    /* logo yellow */
+    /* color: #ffc845; */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitle {
+    /* logo red */
+    color: #f0584a;
+    /* logo yellow */
+    /* color: #ffc845; */
+    text-transform: lowercase;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Courier New", Courier, monospace;
+    /* font-size: 25px; */
+}

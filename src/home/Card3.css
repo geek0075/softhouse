@@ -1,0 +1,20 @@
+.Card3_card3 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.Card3_title {
+    /* logo red */
+    color: #f0584a;
+    /* logo yellow */
+    /* color: #ffc845; */
+    text-transform: lowercase;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Courier New", Courier, monospace;
+    /* font-size: 25px; */
+}
+
+.Card3_body {
+    color: #333333;
+}
