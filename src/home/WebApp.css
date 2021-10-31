@@ -1,8 +1,8 @@
-.my-container {
+.Home_WebApp_container {
     padding: 64px;
 }
 
-.title {
+.Home_WebApp_title {
     /* deep blue */
     color: #255298;
     color: #47a5de;
@@ -14,20 +14,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.my-column {
+.Home_WebApp_column {
     float: left;
     width: 33.33%;
     padding: 20px;
 }
   
-.my-row:after {
+.Home_WebApp_row:after {
     content: "";
     display: table;
     clear: both;
 }
   
 @media screen and (max-width: 900px) {
-    .my-column {
+    .Home_WebApp_column {
         width: 100%;
     }
 }

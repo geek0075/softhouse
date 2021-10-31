@@ -19,12 +19,12 @@ class TopNav extends React.Component {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 || window.scrollY > 20) {
             var navbar = document.querySelector(".navbar");
             if (navbar) {
-                navbar.classList.remove('bg-transparent');
+                navbar.classList.remove('Home_TopNav_bg-transparent');
             }
         } else {
             var navbar = document.querySelector(".navbar");
             if (navbar) {
-                navbar.classList.add('bg-transparent');
+                navbar.classList.add('Home_TopNav_bg-transparent');
             }
         }
     }
@@ -39,7 +39,7 @@ class TopNav extends React.Component {
 
     render() {
         return (
-            <Navbar expand="md" bg="dark" variant="dark" fixed="top" className="bg-transparent">
+            <Navbar expand="md" bg="dark" variant="dark" fixed="top" className="Home_TopNav_bg-transparent">
                 <Container fluid>
                     <Navbar.Brand href="#">
                         <img
@@ -49,7 +49,7 @@ class TopNav extends React.Component {
                             height="30"
                             className="d-inline-block align-middle" />
                         {' '}
-                        <span className='align-middle'><span className='logo-medium'>Soft</span><span className='logo-thin'>house</span></span>
+                        <span className='align-middle'><span className='Home_TopNav_logo-medium'>Soft</span><span className='Home_TopNav_logo-thin'>house</span></span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarCollapse" />
                     <Navbar.Collapse id="navbarCollapse">

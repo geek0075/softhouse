@@ -4,6 +4,7 @@ import TopNav from './TopNav';
 import WebApp from './WebApp';
 import WebApp2 from './WebApp2';
 import WebApp3 from './WebApp3';
+import Team from './Team';
 
 import './App.css';
 
@@ -56,18 +57,19 @@ class App extends React.Component {
         return (
             <>
                 <TopNav />
-                <div className="bg">
-                    <div className="middle">
+                <div className="Home_App_bg">
+                    <div className="Home_App_middle">
                         <h1>SOFTWARE DEVELOPMENT, DATA SCIENCES, AND MACHINE LEARNING</h1>
-                        <h3>coming soon in</h3>
+                        <h3 className="Home_App_h3">coming soon in</h3>
                         <p style={{ fontSize:30 }}>
                             {this.state.days}d {this.state.hours}h {this.state.minutes}m {this.state.seconds}s
                         </p>
                     </div>
                 </div>
                 <WebApp3 />
-                <WebApp />
-                <WebApp2 />
+                <Team />
+                {/*<WebApp />
+                <WebApp2 />*/}
                 <Container style={{ padding : '20px' }}>
                     <p className="float-end"><a href="#">Back to top</a></p>
                     <p>&copy; 2017–2021 Softhouse, LLC. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

@@ -3,12 +3,12 @@ import './WebApp.css';
 function WebApp() {
     return (
         <>
-            <div className="my-container">
+            <div className="Home_WebApp_container">
                 <div style={{ textAlign : "center" }}>
-                    <h1 className="title">Web Application Development</h1>
+                    <h1 className="Home_WebApp_title">Web Application Development</h1>
                 </div>
-                <div className="my-row">
-                    <div className="my-column">
+                <div className="Home_WebApp_row">
+                    <div className="Home_WebApp_column">
                         <h2>Frontend</h2>
                         <p>We create interactive and responsive user interfaces (UI) that runs entirely on the 
                         frontend with pure Javascript and the React and Angular web application frameworks. 
@@ -23,7 +23,7 @@ function WebApp() {
                             <li>HTML</li>
                         </ul>
                     </div>
-                    <div className="my-column">
+                    <div className="Home_WebApp_column">
                         <h2>Backend</h2>
                         <p>Our backends are typically RESTful API’s that run in the server environment and 
                         persist data to a database management system in the cloud such as MongoDB Atlas. We 
@@ -38,7 +38,7 @@ function WebApp() {
                             <li>ASP.NET for C#</li>
                         </ul>
                     </div>
-                    <div className="my-column">
+                    <div className="Home_WebApp_column">
                         <h2>Database</h2>
                         <p>Databases can be on premise or cloud hosted and include MongoDB, MySQL, Postgres. We can develop against
                         various types of databases including but not limited to No-SQL databases, relational databases, etc. We can 

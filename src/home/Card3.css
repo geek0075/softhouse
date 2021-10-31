@@ -1,10 +1,10 @@
-.Card3_card3 {
+.Home_Card3_card3 {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
 }
 
-.Card3_title {
+.Home_Card3_title {
     /* logo red */
     color: #f0584a;
     /* logo yellow */
@@ -15,6 +15,6 @@
     /* font-size: 25px; */
 }
 
-.Card3_body {
+.Home_Card3_body {
     color: #333333;
 }

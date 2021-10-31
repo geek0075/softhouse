@@ -1,0 +1,69 @@
+/*html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}*/
+
+.Home_Team_container {
+    padding: 64px;
+}
+
+.Home_Team_title {
+    color: #47a5de;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Home_Team_column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.Home_Team_row {
+    margin: 0 -5px;
+}
+
+@media screen and (max-width: 950px) {
+    .Home_Team_column {
+        width: 100%;
+        display: block;
+    }
+}
+  
+.Home_Team_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.Home_Team_inner_container {
+    padding: 0 16px;
+}
+  
+.Home_Team_inner_container::after, .Home_Team_row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.Home_Team_subtitle {
+    color: grey;
+}
+  
+.Home_Team_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.Home_Team_button:hover {
+    background-color: #555;
+}

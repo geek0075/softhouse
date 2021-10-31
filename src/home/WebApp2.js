@@ -3,13 +3,13 @@ import './WebApp2.css';
 function WebApp2() {
     return (
         <>
-            <div className="my-container2">
+            <div className="Home_WebApp2_container">
                 <div style={{ textAlign : "center" }}>
-                    <h1 className="title">Web Application Development</h1>
+                    <h1 className="Home_WebApp2_title">Web Application Development</h1>
                 </div>
-                <div className="my-row2">
-                    <div className="my-column2">
-                        <div className="my-card2">
+                <div className="Home_WebApp2_row">
+                    <div className="Home_WebApp2_column">
+                        <div className="Home_WebApp2_card">
                             <h2>Frontend</h2>
                             <p>We create interactive and responsive user interfaces (UI) that runs entirely on the 
                             frontend with pure Javascript and the React and Angular web application frameworks. 
@@ -25,8 +25,8 @@ function WebApp2() {
                             </ul>
                         </div>
                     </div>
-                    <div className="my-column2">
-                        <div className="my-card2">
+                    <div className="Home_WebApp2_column">
+                        <div className="Home_WebApp2_card">
                             <h2>Backend</h2>
                             <p>Our backends are typically RESTful API’s that run in the server environment and 
                             persist data to a database management system in the cloud such as MongoDB Atlas. We 
@@ -42,8 +42,8 @@ function WebApp2() {
                             </ul>
                         </div>
                     </div>
-                    <div className="my-column2">
-                        <div className="my-card2">
+                    <div className="Home_WebApp2_column">
+                        <div className="Home_WebApp2_card">
                             <h2>Database</h2>
                             <p>Databases can be on premise or cloud hosted and include MongoDB, MySQL, Postgres. We can develop against
                             various types of databases including but not limited to No-SQL databases, relational databases, etc. We can 

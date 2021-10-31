@@ -1,35 +1,34 @@
-.my-container2 {
+.Home_WebApp2_container {
     padding: 64px;
 }
 
-.my-column2 {
+.Home_WebApp2_column {
     float: left;
     width: 33.33%;
     padding: 20px;
 }
 
-.my-row2 {
+.Home_WebApp2_row {
     margin: 0 -5px;
 }
 
-.my-row2:after {
+.Home_WebApp2_row:after {
     content: "";
     display: table;
     clear: both;
 }
 
 @media screen and (max-width: 900px) {
-    .my-column2 {
+    .Home_WebApp2_column {
         width: 100%;
         display: block;
         margin-bottom: 20px;
     }
 }
-  
-.my-card2 {
+
+.Home_WebApp2_card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     /*text-align: center;*/
     background-color: #f1f1f1;
 }
-  

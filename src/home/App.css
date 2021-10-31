@@ -1,4 +1,4 @@
-.bg {
+.Home_App_bg {
     background-image: url("./img/bg.png");
     background-repeat: no-repeat;
     background-color: #47a5de;
@@ -8,7 +8,7 @@
     font-size: 25px;
 }
 
-.middle {
+.Home_App_middle {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,12 +18,12 @@
     text-align: center;
 }
 
-h3 {
+.Home_App_h3 {
     color: black;
     font-size: 20px;
 }
 
-hr {
+.Home_App_hr {
     margin: auto;
     width: 40%;
 }

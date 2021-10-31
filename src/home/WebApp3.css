@@ -1,39 +1,33 @@
-.my-container3 {
+.Home_WebApp3_container {
     padding: 64px;
     background-color: #f1f1f1;
 }
 
-.my-column3 {
+.Home_WebApp3_column {
     float: left;
     width: 33.33%;
     padding: 20px;
 }
 
-.my-row3 {
+.Home_WebApp3_row {
     margin: 0 -5px;
 }
 
-.my-row3:after {
+.Home_WebApp3_row:after {
     content: "";
     display: table;
     clear: both;
 }
 
 @media screen and (max-width: 900px) {
-    .my-column3 {
+    .Home_WebApp3_column {
         width: 100%;
         display: block;
         margin-bottom: 20px;
     }
 }
-  
-.my-card3 {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-}
 
-.title {
+.Home_WebApp3_title {
     color: #47a5de;
     /* logo red */
     /* color: #f0584a; */
@@ -41,15 +35,4 @@
     /* color: #ffc845; */
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-}
-
-.subtitle {
-    /* logo red */
-    color: #f0584a;
-    /* logo yellow */
-    /* color: #ffc845; */
-    text-transform: lowercase;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: "Courier New", Courier, monospace;
-    /* font-size: 25px; */
 }

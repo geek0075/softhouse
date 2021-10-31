@@ -1,16 +1,16 @@
-.bg-transparent {
+.Home_TopNav_bg-transparent {
     background-color: transparent !important;
     transition: 0.4s;
 }
 
-.logo-medium {
+.Home_TopNav_logo-medium {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 30px;
 }
 
-.logo-thin {
+.Home_TopNav_logo-thin {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;

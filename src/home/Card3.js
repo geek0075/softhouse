@@ -17,15 +17,15 @@ class Card3 extends React.Component {
     
     render() {
         return (
-            <div className="Card3_card3">
-                <h2 className="Card3_title">{this.props.title}</h2>
+            <div className="Home_Card3_card3">
+                <h2 className="Home_Card3_title">{this.props.title}</h2>
                 <p>
                     <img
                         alt=""
                         src={this.props.img}
                         width="100%" />
                 </p>
-                <p className="Card3_body">{this.state.isToggleOn ? this.props.children : this.props.children.substring(0, 150) + '...'}</p>
+                <p className="Home_Card3_body">{this.state.isToggleOn ? this.props.children : this.props.children.substring(0, 150) + '...'}</p>
                 <button onClick={this.handleClick}>
                     {this.state.isToggleOn ? 'LESS' : 'MORE'}
                 </button>
