@@ -1,7 +1,7 @@
 /*html {
     box-sizing: border-box;
 }
-  
+
 *, *:before, *:after {
     box-sizing: inherit;
 }*/
@@ -19,11 +19,13 @@
 .Home_Team_column {
     float: left;
     width: 33.3%;
+    padding: 25px;
     margin-bottom: 16px;
-    padding: 0 8px;
+    /*padding: 0 8px;*/
 }
 
 .Home_Team_row {
+    color: #000;
     margin: 0 -5px;
 }
 
@@ -31,27 +33,28 @@
     .Home_Team_column {
         width: 100%;
         display: block;
+        margin-bottom: 16px;
     }
 }
-  
+
 .Home_Team_card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-  
+
 .Home_Team_inner_container {
-    padding: 0 16px;
+    padding: 16px 16px 0 16px;
 }
-  
+
 .Home_Team_inner_container::after, .Home_Team_row::after {
     content: "";
     clear: both;
     display: table;
 }
-  
+
 .Home_Team_subtitle {
     color: grey;
 }
-  
+
 .Home_Team_button {
     border: none;
     outline: 0;
@@ -63,7 +66,7 @@
     cursor: pointer;
     width: 100%;
 }
-  
+
 .Home_Team_button:hover {
     background-color: #555;
 }
