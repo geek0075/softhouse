@@ -4,6 +4,7 @@ import TopNav from './TopNav';
 import WebApp from './WebApp';
 import WebApp2 from './WebApp2';
 import WebApp3 from './WebApp3';
+import MobApp from './MobApp';
 import Team from './Team';
 
 import './App.css';
@@ -67,6 +68,7 @@ class App extends React.Component {
                     </div>
                 </div>
                 <WebApp3 />
+                <MobApp />
                 <Team />
                 {/*<WebApp />
                 <WebApp2 />*/}

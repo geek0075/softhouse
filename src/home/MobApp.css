@@ -1,0 +1,56 @@
+.Home_MobApp_container {
+    padding: 64px;
+    background-color: #ffc845;
+}
+
+.Home_MobApp_column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.Home_MobApp_row {
+    margin: 0 -5px;
+}
+
+.Home_MobApp_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .Home_MobApp_column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.Home_MobApp_title {
+    color: #47a5de;
+    /* logo red */
+    /* color: #f0584a; */
+    /* logo yellow */
+    /* color: #ffc845; */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Home_MobApp_container_inner {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+.Home_MobApp_container_inner img {vertical-align: middle;}
+  
+.Home_MobApp_container_inner .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
