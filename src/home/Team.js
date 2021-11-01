@@ -30,7 +30,7 @@ function Team() {
                             <div className="Home_Team_inner_container">
                                 <h2>Coming Soon</h2>
                                 <p className="Home_Team_subtitle">Software Programmer</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Design, develop and debug computer software applications. Proficient at Javascript, React, Angular for Frontend development.</p>
                                 <p>you@softhouse-llc.com</p>
                                 <p><button className="Home_Team_button">Contact</button></p>
                             </div>
@@ -42,7 +42,7 @@ function Team() {
                             <div className="Home_Team_inner_container">
                                 <h2>Coming Soon</h2>
                                 <p className="Home_Team_subtitle">Designer</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Design, develop and debug website user interfaces. Proficient at CSS, HTML, Photoshop for website user interface design.</p>
                                 <p>you@softhouse-llc.com</p>
                                 <p><button className="Home_Team_button">Contact</button></p>
                             </div>
