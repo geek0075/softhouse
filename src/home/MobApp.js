@@ -15,7 +15,7 @@ function MobApp() {
                             <img src={android} alt="Android" style={{ width : "100%" }} />
                             <div class="content">
                                 <h1>Android</h1>
-                                <p>We offer Android application development in Java, Kotlin and Flutter. Our Android applications can be end to end meaning that they rely on a RESTful API backend for services and data.</p>
+                                <p>We offer Android application development in Java, Kotlin and Flutter.</p>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function MobApp() {
                             <img src={ios} alt="iOS" style={{ width : "100%" }} />
                             <div class="content">
                                 <h1>iOS</h1>
-                                <p>We offer iOS application development in Objective-C, Swift and Flutter. Our iOS applications can be end to end meaning that they rely on a RESTful API backend for services and data.</p>
+                                <p>We offer iOS application development in Obj-C, Swift and Flutter.</p>
                             </div>
                         </div>
                     </div>
