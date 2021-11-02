@@ -11,7 +11,8 @@
 }
 
 .Home_Team_title {
-    color: #47a5de;
+    /*color: #47a5de;*/
+    color: #000000;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
