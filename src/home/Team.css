@@ -29,7 +29,7 @@
     margin: 0 -5px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
     .Home_Team_column {
         width: 100%;
         display: block;
