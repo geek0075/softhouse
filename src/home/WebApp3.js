@@ -13,7 +13,7 @@ function WebApp3() {
                 </div>
                 <div className="Home_WebApp3_row">
                     <div className="Home_WebApp3_column">
-                        <Card3 img={frontend} title='frontend'>
+                        <Card3 img={frontend} title='Frontend'>
                             We create interactive and responsive user interfaces (UI) that runs entirely on the
                             frontend with pure Javascript and the React and Angular web application frameworks.
                             React and Angular frameworks enable us to leverage Single Page Applications (SPAs)
@@ -23,7 +23,7 @@ function WebApp3() {
                         </Card3>
                     </div>
                     <div className="Home_WebApp3_column">
-                        <Card3 img={backend} title='backend'>
+                        <Card3 img={backend} title='Backend'>
                             Our backends are typically RESTful API’s that run in the server environment and
                             persist data to a database management system in the cloud such as MongoDB Atlas. We
                             build robust API backends for our web frontends (and mobile apps) using backend web
@@ -33,7 +33,7 @@ function WebApp3() {
                         </Card3>
                     </div>
                     <div className="Home_WebApp3_column">
-                        <Card3 img={database} title='database'>
+                        <Card3 img={database} title='Database'>
                             Databases can be on premise or cloud hosted and include MongoDB, MySQL, Postgres.
                             We can develop against various types of databases including but not limited to
                             No-SQL databases, relational databases, etc. We can help with database schema design,

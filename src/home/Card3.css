@@ -6,12 +6,13 @@
 
 .Home_Card3_title {
     /* logo red */
-    color: #f0584a;
+    /*color: #f0584a;*/
+    color: #000000;
     /* logo yellow */
     /* color: #ffc845; */
-    text-transform: lowercase;
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: "Courier New", Courier, monospace;
+    /*text-transform: lowercase;*/
+    font-family: 'Roboto', sans-serif;
+    /*font-family: "Courier New", Courier, monospace;*/
     /* font-size: 25px; */
 }
 
