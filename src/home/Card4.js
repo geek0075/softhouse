@@ -28,7 +28,7 @@ class Card4 extends React.Component {
                             {this.state.isToggleOn ? 'LESS' : 'MORE'}
                         </button>
                     </p>
-                    <p>{this.props.email}</p>
+                    <p style={{ fontStyle : "italic" }}>{this.props.email}</p>
                     <p><button className="Home_Card4_button">Contact</button></p>
                 </div>
             </div>
