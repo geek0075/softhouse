@@ -38,36 +38,8 @@
     }
 }
 
-.Home_Team_card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.Home_Team_inner_container {
-    padding: 16px 16px 0 16px;
-}
-
-.Home_Team_inner_container::after, .Home_Team_row::after {
+.Home_Team_row::after {
     content: "";
     clear: both;
     display: table;
-}
-
-.Home_Team_subtitle {
-    color: grey;
-}
-
-.Home_Team_button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-
-.Home_Team_button:hover {
-    background-color: #555;
 }

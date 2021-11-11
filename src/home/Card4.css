@@ -1,0 +1,33 @@
+.Home_Card4_card4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Home_Card4_container {
+    padding: 16px 16px 0 16px;
+}
+
+.Home_Card4_container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Home_Card4_title {
+    color: grey;
+}
+
+.Home_Card4_button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Home_Card4_button:hover {
+    background-color: #555;
+}
