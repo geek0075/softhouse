@@ -25,7 +25,7 @@ function WebApp3() {
                     <div className="Home_WebApp3_column">
                         <Card3 img={backend} title='Backend'>
                             Our backends are typically RESTful API’s that run in the server environment and
-                            persist data to a database management system in the cloud such as MongoDB Atlas. We
+                            persist data to a database management system in the cloud such as mongodb atlas. We
                             build robust API backends for our web frontends (and mobile apps) using backend web
                             application development frameworks based on Javascript, Python, C# and Java. Such
                             frameworks include but are not limited to Node.js for Javascript, Flask for Python,
@@ -34,9 +34,9 @@ function WebApp3() {
                     </div>
                     <div className="Home_WebApp3_column">
                         <Card3 img={database} title='Database'>
-                            Databases can be on premise or cloud hosted and include MongoDB, MySQL, Postgres.
+                            Databases can be on premise or cloud hosted and include mongodb, mysql, postgres.
                             We can develop against various types of databases including but not limited to
-                            No-SQL databases, relational databases, etc. We can help with database schema design,
+                            no-sql databases, relational databases, etc. We can help with database schema design,
                             development and implementation. Typically the schema reflects the business problem
                             being solved and hence requires domain knowledge or experts - although this is not
                             necessarily the case.
