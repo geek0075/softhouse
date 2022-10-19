@@ -20,7 +20,7 @@ class App extends React.Component {
             seconds: 0
         };
         // Set the date we're counting down to
-        this.countDownDate = new Date("July 31, 2022 15:37:25").getTime();
+        this.countDownDate = new Date("July 31, 2023 15:37:25").getTime();
     }
     
     tick() {
